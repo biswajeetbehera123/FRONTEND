@@ -1,5 +1,24 @@
 import React from 'react'
-import tech1 from "../assets/images/tech1.png"
+
+import tech2 from "../assets/images/tech/2.png"
+import tech5 from "../assets/images/tech/5.jpg"
+
+import em1 from "../assets/images/em/1.jpg"
+import em2 from "../assets/images/em/2.jpg"
+import em3 from "../assets/images/em/3.jpg"
+import em4 from "../assets/images/em/4.jpg"
+
+import des2 from "../assets/images/design/2.jpg"
+import des3 from "../assets/images/design/3.jpg"
+import des4 from "../assets/images/design/4.jpg"
+import des5 from "../assets/images/design/5.jpg"
+
+import travel2 from "../assets/images/travel/2.jpg"
+
+import pr2 from "../assets/images/pr/2.jpg"
+
+import guest2 from "../assets/images/guest/2.jpg"
+
 import director from "../assets/images/director.jpg"
 import dean from "../assets/images/dean.jpg"
 import sacp from "../assets/images/sac.jpg"
@@ -11,43 +30,43 @@ const Team = () => {
             id: 1,
             title: "Priyanshu Kumar Panda",
             desg: "Technical Team",
-            src: tech1,
+            src: tech2,
         },
         {
             id: 2,
             title: "Biswajeet Behera",
             desg: "Technical Team",
-            src: tech1,
+            src: tech2,
         },
         {
             id: 3,
             title: "Sai Ram Senapati",
             desg: "Technical Team",
-            src: tech1,
+            src: tech2,
         },
         {
             id: 4,
             title: "Sneha Sahu",
             desg: "Technical Team",
-            src: tech1,
+            src: tech2,
         },
         {
             id: 5,
             title: "Pabitra Kumar Bebartta",
             desg: "Technical Team",
-            src: tech1,
+            src: tech5,
         },
         {
             id: 6,
             title: "Adarsh Agarwal",
             desg: "Technical Team",
-            src: tech1,
+            src: tech2,
         },
         {
             id: 7,
             title: "Vidit Kushwaha",
             desg: "Technical Team",
-            src: tech1,
+            src: tech2,
         },
     ]
 
@@ -56,43 +75,43 @@ const Team = () => {
             id: 1,
             title: "Brijesh Mishra",
             desg: "Event Management Team",
-            src: tech1,
+            src: em1,
         },
         {
             id: 2,
             title: "Siba Sankar Pradhan",
             desg: "Event Management Team",
-            src: tech1,
+            src: em2,
         },
         {
             id: 3,
             title: "Mahesh Prasad Sahu",
             desg: "Event Management Team",
-            src: tech1,
+            src: em3,
         },
         {
             id: 4,
             title: "Mukesh Kumar Sahu",
             desg: "Event Management Team",
-            src: tech1,
+            src: em4,
         },
         {
             id: 5,
             title: "Pasupathi Nad",
             desg: "Event Management Team",
-            src: tech1,
+            src: tech2,
         },
         {
             id: 6,
             title: "Banothu Nithiesh Naik ",
             desg: "Event Management Team",
-            src: tech1,
+            src: tech2,
         },
         {
             id: 7,
             title: "Harsh Baid",
             desg: "Event Management Team",
-            src: tech1,
+            src: tech2,
         },
     ]
 
@@ -101,52 +120,52 @@ const Team = () => {
             id: 1,
             title: "Asutosh Ranjan",
             desg: "Design & Video Editing Team",
-            src: tech1,
+            src: tech2,
         },
         {
             id: 2,
             title: "Biswaprakash Bahinipati",
             desg: "Design & Video Editing Team",
-            src: tech1,
+            src: des2,
         },
         {
             id: 3,
             title: "Rahul Ranjan Dash",
             desg: "Design & Video Editing Team",
-            src: tech1,
+            src: des3,
         },
         {
             id: 4,
             title: "Sabitu Datta",
             desg: "Design & Video Editing Team",
-            src: tech1,
+            src: des4,
         },
         {
             id: 5,
             title: "Shubham Padaval",
             desg: "Design & Video Editing Team",
-            src: tech1,
+            src: des5,
         },
     ]
 
     const travel = [
         {
             id: 1,
-            title: "Jagyaraj Pattnaik",
+            title: "Soumyakanta Prusty",
             desg: "Travel & Logistic Team",
-            src: tech1,
+            src: tech2,
         },
         {
             id: 2,
-            title: "Soumyakanta Prusty",
+            title: "Jagyaraj Pattnaik",
             desg: "Travel & Logistic Team",
-            src: tech1,
+            src: travel2,
         },
         {
             id: 3,
             title: "Shreyas Pradhan",
             desg: "Travel & Logistic Team",
-            src: tech1,
+            src: tech2,
         }
     ]
 
@@ -155,19 +174,19 @@ const Team = () => {
             id: 1,
             title: "Ansuman Mahapatra",
             desg: "PR Team",
-            src: tech1,
+            src: tech2,
         },
         {
             id: 2,
             title: "Abhinav Arunesh",
             desg: "PR Team",
-            src: tech1,
+            src: pr2,
         },
         {
             id: 3,
             title: "Jharendra Sunani",
             desg: "PR Team",
-            src: tech1,
+            src: tech2,
         },
     ]
 
@@ -176,19 +195,19 @@ const Team = () => {
             id: 1,
             title: "Sonali Pradhan",
             desg: "Guest Hospitality & Workshop Team",
-            src: tech1,
+            src: tech2,
         },
         {
             id: 2,
             title: "Aiswarya R Behera",
             desg: "Guest Hospitality & Workshop Team",
-            src: tech1,
+            src: guest2,
         },
         {
             id: 3,
             title: "Prayag Sahoo",
             desg: "Guest Hospitality & Workshop Team",
-            src: tech1,
+            src: tech2,
         },
     ]
 
